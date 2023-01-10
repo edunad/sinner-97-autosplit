@@ -73,8 +73,6 @@ init {
 update {
     if(vars.ingame == null) return;
     vars.ingame.UpdateAll(game);
-
-    print("IN CREDITS: " + vars.ingame["isInCredits"].Current);
 }
 
 reset {
